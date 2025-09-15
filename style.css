@@ -80,7 +80,7 @@ footer .foot2_1 {width: 200px; height: 50px;}
 footer .foot2_2 {width: 200px; height: 50px;}
 
 /*팝업 스타일*/
-#popup_bg {position: fixed; background-color: #cccccc90; width: 100%; height: 100%; left: 0; top: 0; z-index: 101;}
+#popup_bg {position: fixed; background-color: #cccccc90; width: 100%; height: 100%; left: 0; top: 0;}
 #popup {width: 600px; height: 400px; background-color: #003399; margin-top: 150px; border-radius: 20px;}
 .phead {line-height: 90px; font-size: 35px; text-align: center; color: #99ccff;}
 .ptext {text-align: center; font-size: 15px; line-height: 22px; background-color: #99ccff; border-radius: 15px; margin: 0 15px 15px 15px; padding: 10px 0 10px 0;}
@@ -88,4 +88,3 @@ footer .foot2_2 {width: 200px; height: 50px;}
 
 #popup_bg {visibility: hidden;}
 #popup_bg:target {visibility: visible;}
-
